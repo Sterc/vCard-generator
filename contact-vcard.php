@@ -85,7 +85,7 @@ if($getPhoto){
 }
 
 if($phone){
-	$vCard .= "TEL;TYPE=work,voice:" . $fields['phone'] . "\r";	
+	$vCard .= "TEL;TYPE=work,voice:" . $phone . "\r";	
 }
 
 $vCard .= "END:VCARD";
